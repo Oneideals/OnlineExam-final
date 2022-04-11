@@ -84,7 +84,7 @@ export default {
 #topbar {
   position: relative;
   z-index: 10;
-  background-color: #124280;
+  background-color: #134b90;
   height: 80px;
   line-height: 80px;
   color: #fff;
