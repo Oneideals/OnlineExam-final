@@ -10,31 +10,48 @@
     [在线考试系统](http://124.223.53.193/ "在线考试系统")
 
 
-* ## 页面截图
-  ![登录](https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam/blob/master/img/%E7%99%BB%E5%BD%95.png?raw=true)
-
-  <center>登录</center>
-
-![试卷列表](https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam/blob/master/img/%E8%AF%95%E5%8D%B7%E5%88%97%E8%A1%A8.png?raw=true)
-
-<center>试卷列表</center>
-
-![答题模块](https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam/blob/master/img/%E7%AD%94%E9%A2%98%E6%A8%A1%E5%9D%97.png?raw=true)
-
-<center>答题模块</center>
-
-![练习模式](https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam/blob/master/img/%E7%BB%83%E4%B9%A0%E6%A8%A1%E5%BC%8F.png?raw=true)
-
-<center>练习模式</center>
-
-![留言模块](https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam/blob/master/img/%E7%95%99%E8%A8%80%E6%A8%A1%E5%9D%97.png?raw=true)
-
-<center>留言模块<center/>
-
-![后台管理](https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam/blob/master/img/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86.png?raw=true)
-
-<center>后台管理</center>
-
-![学生成绩](https://github.com/YXJ2018/SpringBoot-Vue-OnlineExam/blob/master/img/%E5%AD%A6%E7%94%9F%E6%88%90%E7%BB%A9%E6%8A%98%E7%BA%BF%E5%9B%BE.png?raw=true)
-
-<center>学生成绩</center>
+* ## 部署过程
+  
+  ### 后端环境：
+  
+  #### 1、安装Java
+  
+  Java版本最好使用Java 8，版本太新容易出问题
+  
+  下载地址：（https://www.oracle.com/cn/java/technologies/javase/javase8-archive-downloads.html）
+  
+  #### 2、安装MySQL
+  
+  下载地址：（https://dev.mysql.com/downloads/mysql/）
+  
+  运行数据库文件，连接数据库
+  
+  ### 前端环境：
+  
+  #### 1、安装node
+  
+  版本为12（高版本可能会不兼容，出现预期外的bug）
+  
+  下载地址：（https://registry.npmmirror.com/binary.html?path=node/latest-v12.x/）
+  
+  安装完成以后可以通过cmd命令：**node -v** 查看是否安装成功
+  
+  #### 2、安装yarn
+  
+  安装node后，自动会安装npm包管理器，npm安装依赖速度较慢，所以这里推荐使用yarn。
+  
+  使用 npm install yarn -g 命令安装，完成后请设置yarn源为淘宝镜像
+  
+  yarn config set registry https://registry.npm.taobao.org
+  
+  #### 3、安装依赖
+  
+  温馨提示，前端项目在 SpringBoot-Vue-OnlineExam/exam目录下，运行命令请在此目录打开bash窗口
+  
+  l yarn install（安装依赖）
+  
+  l yarn start（运行项目）
+  
+  #### 4、done
+  
+  到此步骤，前端运行步骤完成。
